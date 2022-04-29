@@ -1,31 +1,34 @@
-# Transformer   Pytorch实现的简单英中机器翻译
+# Transformer   Pytorch实现的简单古今机器翻译
 ## 部分机器翻译结果
 ``` bash
-take care . 
-照 顾 好 自 己 。
+BOS 睿 具 陈 本 末 。 EOS
+BOS 睿 就 一 五 一 十 地 进 行 了 报 告 。 EOS
+translation: 睿 就 一 五 一 十 地 进 行 了 报 告 。
 
-wait here . 
-在 这 等 着 。
+BOS 狗 则 饲 以 粱 肉 。 EOS
+BOS 以 珍 贵 的 食 物 养 狗 。 EOS
+translation: 狗 就 用 肉 把 肉 食 肉 养 狗 。
 
-well done !
-干 的 好 ！
+BOS 城 不 没 者 三 板 。 EOS
+BOS 长 社 城 涌 进 了 很 多 的 水 。 EOS
+translation: 长 社 城 涌 进 了 很 多 的 水 。
 
-he studied hard . 
-他 努 力 學 習 。
+BOS 如 其 语 ， 捕 获 之 。 EOS
+BOS 按 她 说 的 话 ， 抓 获 了 这 个 人 。 EOS
+translation: 按 他 的 话 ， 抓 获 了 这 个 人 。
 
-he tends to lie . 
-他 企 图 说 谎 。
+BOS 由 是 睿 及 士 开 皆 侧 目 。 EOS
+BOS 因 此 直 数 和 和 士 开 都 对 他 含 恨 斜 视 。 EOS
+translation: 因 此 直 数 和 和 士 开 都 对 他 含 恨 斜 视 。
 
-he was very old . 
-他 很 老 。
+BOS 言 未 卒 ， 呜 咽 不 自 胜 。 EOS
+BOS 话 还 没 有 说 完 ， 又 情 不 自 禁 地 哭 了 起 来 。 EOS
+translation: 话 还 没 有 说 完 ， 又 情 不 自 禁 地 哭 了 起 来 。
 
-do you have kids ? 
-你 們 有 孩 子 嗎 ？
+BOS 遂 至 消 液 ， 竟 不 一 尝 。 EOS
+BOS 他 统 统 地 让 给 了 兵 士 们 ， 而 自 己 则 未 尝 一 滴 。 EOS
+translation: 于 是 走 了 回 家 ， 始 终 不 曾 有 一 点 。
 ```
-## 预训练模型
-+ .pth格式的预训练模型如下。<br>
->- 链接：https://pan.baidu.com/s/1hcuDdnFhFX0WceVNzCXBGA
->- 提取码：k1h0
 
 ## 训练自己的数据集
 ### 1. 按照data中train.txt所示格式准备数据集
